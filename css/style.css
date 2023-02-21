@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://w0.peakpx.com/wallpaper/397/880/HD-wallpaper-honeycomb-black-dark-design-grey-lines-patterns.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: red;
+    padding-top: 30px;
+}
+
+.security{
+    color: limegreen;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.ms_height{
+    min-height: 400px;
+}
+
+#password{
+    transition: background-color 1s linear;
+}
+
+#password:hover{
+    background-color:lightslategray;
+}
+
+
